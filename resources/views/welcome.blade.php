@@ -6,7 +6,7 @@
     <meta name="keywords" content="DoneWork">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Home</title>
+    <title>DoneWork</title>
     <link rel="stylesheet" href="{{asset("css/nicepage.css")}}" media="screen">
     <link rel="stylesheet" href="{{asset("css/Home.css")}}" media="screen">
     <script class="u-script" type="text/javascript" src="{{asset("jquery.js")}}" defer=""></script>
