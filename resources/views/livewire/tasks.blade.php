@@ -1,7 +1,9 @@
 <div>
     <section class="u-clearfix u-palette-2-base u-section-1" id="sec-b7db">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <div class="u-form u-form-1 u-clearfix u-form-horizontal u-form-spacing-10 u-inner-form">
+            <form wire:submit.prevent="saveTask"
+                  class="u-form u-form-1 u-clearfix u-form-horizontal u-form-spacing-10 u-inner-form">
+                @csrf
                 <div class="u-form-group u-form-name u-form-group-1">
                     <label for="name-2dcc" class="u-form-control-hidden u-label">Name</label>
                     <input wire:model="newTask" type="text" placeholder="Create task" id="name-2dcc" name="newTask"
@@ -9,11 +11,11 @@
                            required="">
                 </div>
                 <div class="u-align-left u-form-group u-form-submit u-form-group-2">
-                    <button wire:click="saveTask"
+                    <button type="submit"
                             class="u-border-radius-15 u-btn u-btn-round u-btn-submit u-button-style u-btn-1">Save
                     </button>
                 </div>
-            </div>
+            </form>
             @error("newTask")
             <p class="u-form-send-error u-form-send-message" style="padding: 20px"> {{$message}}
             </p>
@@ -31,9 +33,12 @@
             <div class="u-expanded-width u-list u-repeater">
                 @foreach($tasks as $task)
                     <div
-                        class="u-container-style u-list-item u-palette-3-dark-1 u-repeater-item u-shape-round" style="margin: 20px">
-                        <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1 u-list-item-1">
-              <span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1" wire:click="completeTask({{$task->id}})">
+                        class="u-container-style u-list-item u-palette-3-dark-1 u-repeater-item u-shape-round"
+                        style="margin: 20px">
+                        <div
+                            class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1 u-list-item-1">
+              <span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1"
+                    wire:click="completeTask({{$task->id}})">
                 <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 515.556 515.556" style=""><use
                         xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-bc78"></use></svg>
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

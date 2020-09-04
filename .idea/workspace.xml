@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4257be-cf1d-4d9c-a26c-c8bfa0655020" name="Default Changelist" comment="Version 1.0">
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/tasks.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/tasks.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -131,9 +132,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -156,7 +158,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598871473258</updated>
-      <workItem from="1598871474773" duration="5986000" />
+      <workItem from="1598871474773" duration="6009000" />
+      <workItem from="1599200532235" duration="998000" />
+      <workItem from="1599211076826" duration="517000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.0">
       <created>1598881483851</created>
@@ -165,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598881483851</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version 1.0">
+      <created>1598881564573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598881564573</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,14 +195,14 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="355" y="112" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1598881343939" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1598881265478">
+    <state x="141" y="39" key="SettingsEditor" timestamp="1599200959475">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1598881265478" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1598881485650">
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1599200959475" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1598881566008">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1598881485650" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1598881566008" />
     <state x="305" y="185" key="run.anything.popup" timestamp="1598879221949">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
